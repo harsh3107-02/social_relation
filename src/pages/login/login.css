@@ -1,0 +1,77 @@
+/* correct method too make form in middle */
+
+.loginwrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ececec;
+}
+
+.loginWrapper {
+    width: 50%;
+    height: 60%;
+    display: flex;
+}
+
+.logo,
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right {
+    height: 350px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0px 5px;
+    box-shadow: 7px 8px 5px -3px rgba(174, 169, 169, 1);
+    -webkit-box-shadow: 7px 8px 5px -3px rgba(174, 169, 169, 1);
+    -moz-box-shadow: 7px 8px 5px -3px rgba(174, 169, 169, 1);
+}
+
+
+/*  */
+
+.text {
+    height: 55px;
+    font-size: 15px;
+    border-color: #ececec;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.login {
+    height: 50px;
+    background-color: #1877F2;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: 450;
+    border-style: none;
+}
+
+.line {
+    margin-top: 10px;
+    width: 360px;
+}
+
+.register {
+    width: 250px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: #42b52a;
+    font-size: 18px;
+    font-weight: 450;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-style: none;
+}

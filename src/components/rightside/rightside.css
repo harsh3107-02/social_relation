@@ -1,0 +1,109 @@
+.rightbar {
+    flex: 1.5;
+}
+
+.rightwrapper {
+    padding: 30px 0px;
+}
+
+.headingtext {
+    font-weight: 600;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.gitcontainr {
+    display: flex;
+    align-items: center;
+}
+
+.gift {
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+}
+
+ul {
+    list-style: none;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+.userprofile {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.userimg {
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.onlinebar {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: -2px;
+    left: 31px;
+}
+
+.intro {
+    background-color: white;
+    border-radius: 20px;
+    justify-content: space-between;
+    box-shadow: 2px 8px 14px -2px rgba(207, 203, 203, 0.82);
+    -webkit-box-shadow: 2px 8px 14px -2px rgba(207, 203, 203, 0.82);
+    -moz-box-shadow: 2px 8px 14px -2px rgba(207, 203, 203, 0.82);
+}
+
+.userfirend {
+    background-color: white;
+    border-radius: 20px;
+    justify-content: space-between;
+    box-shadow: 2px 8px 14px -2px rgba(207, 203, 203, 0.82);
+    -webkit-box-shadow: 2px 8px 14px -2px rgba(207, 203, 203, 0.82);
+    -moz-box-shadow: 2px 8px 14px -2px rgba(207, 203, 203, 0.82);
+}
+
+.rightbarfollowings {
+    margin: 3px 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rightbarfollowing {
+    display: flex;
+    flex-direction: column;
+}
+
+.useroo {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.buttoncontainer {
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    background-color: #1872f2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buttoncontainer:focus {
+    outline: none;
+}

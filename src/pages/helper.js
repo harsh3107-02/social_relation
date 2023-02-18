@@ -1,0 +1,1 @@
+export const BASE_URL = "https://social-media-backend-ai6p.onrender.com"

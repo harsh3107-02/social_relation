@@ -1,0 +1,28 @@
+.leftbar {
+    flex: 1.5;
+    /*mandiatory condition soo that it is sticky*/
+    height: 100%;
+    position: sticky;
+    top: 50px
+}
+
+.wrapper {
+    margin-top: 20px;
+    margin-left: -15px;
+}
+
+.sidelist {
+    list-style: none;
+}
+
+.listitem {
+    display: flex;
+    margin: 10px;
+    padding-top: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icons {
+    margin-right: 5px;
+}

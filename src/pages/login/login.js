@@ -6,6 +6,7 @@ import { CircularProgress } from "@mui/material";
 import { useEffect } from "react";
 import axios from "axios";
 import { BASE_URL } from "../helper";
+import { Link } from "react-router-dom";
 
 export default function login() {
   // const BASE_URL = process.env.URL;
@@ -79,13 +80,15 @@ export default function login() {
             <hr className="line" />
           </center>
           <center>
-            <button className="register">
-              {isFetching ? (
-                <CircularProgress color="inherit" />
-              ) : (
-                "Create New Account"
-              )}
-            </button>
+            <Link to="/register">
+              <button className="register">
+                {isFetching ? (
+                  <CircularProgress color="inherit" />
+                ) : (
+                  "Create New Account"
+                )}
+              </button>
+            </Link>
           </center>
         </form>
       </div>

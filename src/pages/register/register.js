@@ -1,7 +1,9 @@
 import axios from "axios";
 import { useRef } from "react";
 import "./register.css";
+import { Link } from "react-router-dom";
 import { BASE_URL } from "../helper";
+// BASE_URL
 
 export default function login() {
   const username = useRef();
@@ -21,6 +23,7 @@ export default function login() {
       try {
         await axios.post(`${BASE_URL}/api/auths/register`, users);
         window.location.reload();
+        alert("successfully Register");
       } catch (err) {
         console.log(err);
       }
@@ -68,7 +71,9 @@ export default function login() {
           </button>
           <center></center>
           <center>
-            <button className="register">Log in</button>
+            <Link to="/login">
+              <button className="register">Log in</button>
+            </Link>
           </center>
         </form>
       </div>
